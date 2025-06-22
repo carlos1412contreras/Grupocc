@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grupo CC | Ingeniería y Construcción</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #001f3f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #003366;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1581093458791-5cf3d61d5245?auto=format&fit=crop&w=1950&q=80') center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    }
+    .hero h1 {
+      font-size: 3em;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .service {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #001f3f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>GRUPO CC</h1>
+  <p>Ingeniería, Construcción y Servicios Industriales</p>
+</header>
+
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#servicios">Servicios</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section class="hero" id="inicio">
+  <h1>Soluciones Industriales de Alta Precisión</h1>
+</section>
+
+<section class="section" id="servicios">
+  <h2>Nuestros Servicios</h2>
+  <div class="services">
+    <div class="service">
+      <h3>Estructuras Metálicas</h3>
+      <p>Diseño, fabricación y montaje de estructuras metálicas para todo tipo de proyectos.</p>
+    </div>
+    <div class="service">
+      <h3>Montajes Industriales</h3>
+      <p>Instalaciones y desmontajes de equipos, maquinaria y sistemas industriales.</p>
+    </div>
+    <div class="service">
+      <h3>Obras Civiles</h3>
+      <p>Ejecución de obras civiles con equipos modernos y mano de obra calificada.</p>
+    </div>
+    <div class="service">
+      <h3>Servicios Hidráulicos</h3>
+      <p>Soluciones hidráulicas para infraestructuras industriales y navales.</p>
+    </div>
+    <div class="service">
+      <h3>Atención a Embarcaciones</h3>
+      <p>Mantenimiento y servicios especializados para buques y embarcaciones industriales.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contacto">
+  <h2>Contáctanos</h2>
+  <p style="text-align:center;">¿Quieres saber más? Escríbenos a <a href="mailto:contacto@grupocc.com">contacto@grupocc.com</a> o llámanos al (123) 456-7890.</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Grupo CC. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
